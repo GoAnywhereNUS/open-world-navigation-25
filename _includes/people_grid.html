@@ -1,4 +1,4 @@
-{% assign people = include.people %}
+{% assign people = include.people | sort: 'sequence_id' %}
 {% assign image_subdir = include.image_subdir | default: 'speakers' %}
 <div class="people-grid">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
