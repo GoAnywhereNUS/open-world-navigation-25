@@ -32,6 +32,11 @@ layout: default
 		            		<b>{{ speaker.name }}</b>
 		            	{% endif %}
 		                <br>
+						<!-- Speaker's appointment -->
+						{% if speaker.appointment %}
+							<i>{{ speaker.appointment }}</i>
+						{% endif %}
+						<br>
 		                <!-- Speaker affiliation (if provided) -->
 		                {% if speaker.affil_link %}
 		                	<a href="{{ speaker.affil_link }}" target="_blank">{{ speaker.affil }}</a>

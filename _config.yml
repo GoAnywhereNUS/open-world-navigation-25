@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sniffle Workshop
+title: OWN 2025
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for the workshop site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for the workshop site here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rethinkmlpapers
@@ -37,11 +35,11 @@ plugins:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-- index.md
+# - index.md
 - speakers.md
-- organizers.md
-- callforpapers.md
 - schedule.md
+# - organizers.md
+- callforpapers.md
 - papers.md
 - contactus.md
 
@@ -52,8 +50,7 @@ header_pages:
 
 # A two-line attribution (remove this if you have to, but we'd appreciate if you leave this as is)
 attribution: >
-  Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>.
-  Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+  <a href="https://github.com/krrish94/sniffle-workshop.git">Template</a>
 
 # Displays a "last updated" date in the footer if set to "true"
 last_updated: true
@@ -64,6 +61,7 @@ collections:
   speakers:
     output: true
   organizers:
+    sort_by: sequence_id
     output: true
   schedule:
     sort_by: sequence_id

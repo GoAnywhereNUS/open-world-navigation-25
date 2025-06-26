@@ -3,20 +3,79 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title:
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+## <center><span style="color:salmon">Open World Navigation</span> in Human-centric Environments</center>
+##### <center>IROS 2025, Hangzhou, China</center>
+##### <center>20th Oct 2025, Monday, 1:30pm - 5:30pm (UTC +8)</center>
+##### <center>Grand Ballroom A, Hangzhou International Expo Center</center>
 
 ![](assets/img/banner.jpg)
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+Can a robot be deployed anywhere in the world, then navigate its surroundings zero-shot to reach a goal? Navigation in the open world remains an elusive grail of robotics, owing to the sheer diversity of environments, agents and scenarios a robot can encounter. With the rise of foundation models, robots have attained unprecedented levels of generalization, enabling progress toward open world navigation. Yet training data is bounded, making it almost certain robots will encounter unexpected, out-of-distribution scenarios. Thus achieving open world navigation requires taking a path that balances improving generalization with out-of-distribution handling. Recent workshops have focused on individual elements of this, such as applications of LLMs/VLMs to navigation or robot failure management. In contrast, this workshop seeks to provide a timely and unique perspective on system design for open world navigation, that unites the application of increasingly powerful and general foundation models with explicit consideration of failures and out-of-distribution scenarios.
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+In particular, this workshop aims to answer the questions:
+
+* How do we build generalizable systems for open world navigation with foundation models?
+* How do we detect failures of such systems, particularly for scenarios that are out-of-distribution for learned/foundation models?
+* What strategies can be employed to mitigate failures or recover from them?
+* What are suitable benchmarks to gauge progress in open world navigation?
+
+### <center>Speakers and Panelists</center>
+
+{% include people_grid.html people=site.speakers image_subdir="speakers" %}
+
+### <center>Call for Papers</center>
+
+<!-- We are excited to announce that Best Paper and Best Paper Runner-Up awards will be given at the workshop! -->
+
+<!-- 🏆 Best Paper Award: $300 -->
+<!-- 🥈 Best Paper Runner-Up: $100 -->
+
+We are accepting paper submissions related to generalization and failure handling in robot navigation. Please refer to the [Call for Papers](/callforpapers/) for more details.
+
+_Time to submission deadline_ (19 Sep 2025):
+
+<center>
+<div id="countdown" style="font-size: 1.5rem; font-weight: bold;"></div>
+<script>
+  // Set the target date and time (UTC or local)
+  const countdownDate = new Date("2025-09-20T00:00:00").getTime(); // YYYY-MM-DDTHH:MM:SS
+
+  const countdownElement = document.getElementById("countdown");
+
+  const updateCountdown = () => {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+
+    if (distance < 0) {
+      countdownElement.innerHTML = "The event has started!";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    countdownElement.innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+  };
+
+  updateCountdown(); // Initial call
+  setInterval(updateCountdown, 1000); // Update every second
+</script>
+</center>
+
+### <center>Organizers</center>
+
+{% include people_grid.html people=site.organizers image_subdir="organizers" %}
+
+### <center>Sponsors</center>
+
+<center><img src="assets/img/frodobots.png" alt="drawing" width="400"/></center>
+
+### <center>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact Us
+title: Contact us
 permalink: /contactus/
 ---
 
-Here's how you can contact us ...
+### Email: [open.world.navigation@gmail.com](mailto:open.world.navigation@gmail.com)
