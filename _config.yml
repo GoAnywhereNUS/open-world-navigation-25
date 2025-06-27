@@ -23,7 +23,7 @@ email: open.world.navigation@gmail.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for the workshop site here.
 baseurl: "/open-world-navigation-25" # the subpath of your site, e.g. /blog
-url: "https://goanywherenus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://adacompnus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: openworldnavigation
 github_username:  open-world-navigation
 
