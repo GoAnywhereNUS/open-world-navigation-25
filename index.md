@@ -28,6 +28,13 @@ In particular, this workshop aims to answer the questions:
 
 {% include people_grid.html people=site.speakers image_subdir="speakers" %}
 
+### <center>Call for Videos</center>
+
+We are accepting short videos related to the challenges or failure modes of robot navigation systems in the open world, which we will screen during the workshop. Please refer to the [Call for Videos](/callforvideos/) for more details.
+
+We are excited to announce that Best Video award will be given at the workshop!
+🏆 Best Video Award: FrodoBot Mini+ Robot
+
 ### <center>Call for Papers</center>
 
 <!-- We are excited to announce that Best Paper and Best Paper Runner-Up awards will be given at the workshop! -->
@@ -36,6 +43,9 @@ In particular, this workshop aims to answer the questions:
 <!-- 🥈 Best Paper Runner-Up: $100 -->
 
 We are accepting paper submissions related to generalization and failure handling in robot navigation. Please refer to the [Call for Papers](/callforpapers/) for more details.
+
+We are excited to announce that Best Paper award will be given at the workshop!
+🏆 Best Paper Award: FrodoBot Mini+ Robot
 
 _Time to submission deadline_ (19 Sep 2025):
 

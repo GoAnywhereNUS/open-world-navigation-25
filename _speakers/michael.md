@@ -4,6 +4,7 @@ name: Michael Cho
 appointment: Co-founder
 
 # Link to the speaker's webpage
+webpage: https://x.com/micoolcho
 
 # Primary affiliation of the speaker
 affil: FrodoBots
