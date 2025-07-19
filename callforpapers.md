@@ -4,7 +4,9 @@ title: Call for papers
 permalink: /callforpapers/
 ---
 
-We invite workshop paper submissions on ideas and experimental evaluations related to open-world navigation (OWN). Papers may be based on new and unpublished work, or may be non-archival abstract based on prior publications. We ask that authors highlight which category their papers fall under. The workshop organizers will try to provide more comprehensive reviews for papers based on new and unpublished work. Do note that submissions should not take the form of an existing paper that is published or under review, and an accepted paper cannot be considered published as a peer-reviewed paper.
+We invite workshop paper submissions on ideas and experimental evaluations related to open-world navigation (OWN). Accepted papers will be released on the website after the workshop (as non-archival publications).
+
+Papers may be based on new and unpublished work, or may be an abstract based on prior publications. Authors whose work belongs to the former category may highlight this during submission. The organizers will strive to provide more comprehensive reviews for such papers.
 
 ### Topics of Interest
 We invite contributions in areas including, but not limited to the following navigation-related topics:
@@ -31,14 +33,14 @@ We invite contributions in areas including, but not limited to the following nav
 ### Submission Instructions and Important Dates:
 Submissions should be 2-4 pages (not including references), following the IROS format. The submission and review process will proceed through [OpenReview](https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/OWN). We encourage authors to include videos, code, or data as supplementary material, either in a zip file or through external links.
 
-The submission portal will open on 8th Aug 2025, and accept submissions until the paper submission deadline on 19th Sep 2025. We offer an _early paper submission deadline_ for researchers who require a decision before the IROS early-bird registration deadline.
+The submission portal will open on 1st Aug 2025, and continuously accept submissions until 19th Sep 2025. We offer two calls for papers, with the first closing on 15th Aug 2025. Papers submitted by the first deadline will receive a review before the IROS early bird registration deadline. The second deadline on 19th Sep 2025 is the final deadline for all paper submissions.
 
 **Important Dates**  (All deadlines are AoE):
 
-* Submission portal opens: 8th Aug 2025
-* Early paper submission deadline: 15th Aug 2025
-* Notification of acceptance (_early submissions_): 29th Aug 2025
-* Paper submission deadline: 19th Sep 2025
-* Notification of acceptance (_regular submissions_): 3rd Oct 2025
-* Camera-ready submission due date: 10th Oct 2025
+* Submission portal opens: 1st Aug 2025
+* _1st_ call for papers deadline: 15th Aug 2025
+* Notification of acceptance (_1st_ call): 29th Aug 2025
+* _2nd_ call for papers deadline: 19th Sep 2025
+* Notification of acceptance (_2nd_ call): 3rd Oct 2025
+* Camera-ready submission due date (_1st_ & _2nd_ call): 10th Oct 2025
 * Workshop date: 20th Oct 2025 (PM)
