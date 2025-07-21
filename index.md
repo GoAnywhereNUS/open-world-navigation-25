@@ -12,7 +12,10 @@ layout: home
 ##### <center>20th Oct 2025, Monday, 1:30pm - 5:30pm (UTC +8)</center>
 ##### <center>Grand Ballroom A, Hangzhou International Expo Center</center>
 
-![OWN 2025](assets/img/own_banner.gif)
+
+<video controls="" width="100%" muted="" loop="" autoplay="">
+<source src="assets/img/own_banner_cropped.mp4" type="video/mp4">
+</video>
 
 Can a robot be deployed anywhere in the world, then navigate its surroundings zero-shot to reach a goal? Navigation in the open world remains an elusive grail of robotics, owing to the sheer diversity of environments, agents and scenarios a robot can encounter. With the rise of foundation models, robots have attained unprecedented levels of generalization, enabling progress toward open world navigation. Yet training data is bounded, making it almost certain robots will encounter unexpected, out-of-distribution scenarios. Thus achieving open world navigation requires taking a path that balances improving generalization with out-of-distribution handling. Recent workshops have focused on individual elements of this, such as applications of LLMs/VLMs to navigation or robot failure management. In contrast, this workshop seeks to provide a timely and unique perspective on system design for open world navigation, that unites the application of increasingly powerful and general foundation models with explicit consideration of failures and out-of-distribution scenarios.
 

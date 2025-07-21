@@ -4,7 +4,7 @@ title: Call for papers
 permalink: /callforpapers/
 ---
 
-We invite workshop paper submissions on ideas and experimental evaluations related to open-world navigation (OWN). Accepted papers will be released on the website after the workshop (as non-archival publications).
+We invite workshop paper submissions on ideas and experimental evaluations related to open-world navigation (OWN). Accepted papers will be released on the workshop website (as non-archival publications) after the conclusion of the workshop.
 
 Papers may be based on new and unpublished work, or may be an abstract based on prior publications. Authors whose work belongs to the former category may highlight this during submission. The organizers will strive to provide more comprehensive reviews for such papers.
 
