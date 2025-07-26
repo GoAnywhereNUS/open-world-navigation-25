@@ -9,7 +9,7 @@ layout: home
 
 ## <center><span style="color:#2F5597">Open World Navigation</span> in Human-centric Environments</center>
 ##### <center>IROS 2025, Hangzhou, China</center>
-##### <center>20th Oct 2025, Monday, 1:30pm - 5:30pm (UTC +8)</center>
+##### <center>20th Oct 2025, Monday, 1:15pm - 6:00pm (UTC +8)</center>
 ##### <center>Grand Ballroom A, Hangzhou International Expo Center</center>
 
 
